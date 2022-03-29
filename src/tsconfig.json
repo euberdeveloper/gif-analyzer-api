@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "target": "ES5",
+        "lib": [
+            "ES2021"
+        ],
+        "sourceMap": true,
+        "outDir": "../dist",
+        "resolveJsonModule": true,
+        "downlevelIteration": true
+    }
+}
