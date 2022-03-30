@@ -2,7 +2,6 @@
   "name": "gif-analyzer-api",
   "version": "1.0.0",
   "description": "The API of the gif analyzer",
-  "main": "index.js",
   "scripts": {
     "start": "ts-node -P src/tsconfig.json src/main.ts"
   },
@@ -11,7 +10,7 @@
     "url": "git+https://github.com/euberdeveloper/gif-analyzer-api.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/euberdeveloper/gif-analyzer-api/issues"
   },
@@ -30,5 +29,6 @@
     "morgan": "^1.10.0",
     "multer": "^1.4.4",
     "ts-node": "^10.7.0"
-  }
+  },
+  "private": true
 }
